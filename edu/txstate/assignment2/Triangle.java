@@ -20,7 +20,7 @@ public class Triangle implements Shape {
         return "Triangle";
     }
 
-    
+    @Override
     public String toString() {
         return "Triangle (b=" + base + ", h=" + height + ")";
     }
