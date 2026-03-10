@@ -17,6 +17,6 @@ public class Circle implements Shape {
 
     @Override
     public String toString() {
-        return "The area of this circle is: " + getArea();
+        return "Circle (r=" + radius + ")";
     }
 }
