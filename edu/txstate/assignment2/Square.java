@@ -12,14 +12,12 @@ public class Square implements Shape {
         return side * side;
     }
 
-    @Override
     public String getClassName() {
         return "Square";
     }
 
     @Override
     public String toString() {
-        // Match the GUI example: "Square (s=3.4)"
         return "Square (s=" + side + ")";
     }
 }
